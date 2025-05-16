@@ -3,10 +3,12 @@ import '../styles/App.css';
 
 function Home() {
   return (
-    <div>
+    <main className="home-container">
       <h2>Welcome to Karrotify!</h2>
-      <p>A platform for [describe purpose, e.g., local sharing].</p>
-    </div>
+      <p>
+        Karrotify is a hyperlocal, open-source platform for trading fresh produce, homemade goods, and surplus food within your community. Discover sustainable food sharing and connect with your neighbors!
+      </p>
+    </main>
   );
 }
 
