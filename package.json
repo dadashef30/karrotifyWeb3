@@ -1,0 +1,26 @@
+{
+  "name": "karrotify",
+  "version": "1.0.0",
+  "description": "A community marketplace platform",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "client": "react-scripts start",
+    "test": "jest",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "supertest": "^6.1.0",
+    "react-scripts": "^4.0.0"
+  },
+  "author": "[Your Name]",
+  "license": "MIT"
+}
